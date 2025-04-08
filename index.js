@@ -27,7 +27,7 @@ app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: "https://rad-horse-d61802.netlify.app/", // Allow frontend to connect
+    origin: "http://localhost:5173/", // Allow frontend to connect
     methods: "POST, GET, PUT, PATCH, DELETE, HEAD", // Allowed methods
     credentials: true, // Allow cookies to be sent
   })
