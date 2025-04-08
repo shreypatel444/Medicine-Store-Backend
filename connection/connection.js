@@ -4,7 +4,7 @@
 const mongoose = require("mongoose");
 require("dotenv").config();
 
-const URL = "mongodb://127.0.0.1:27017/PharmaNet";
+const URL = "mongodb+srv://smpatelshreypatel:rMMiF2gc5NeKlEDv@clusterpharmanet.o8erlsw.mongodb.net/?retryWrites=true&w=majority&appName=ClusterPharmaNet";
 
 const connectDB = async () => {
   try {
